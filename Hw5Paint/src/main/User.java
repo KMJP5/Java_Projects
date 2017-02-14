@@ -3,7 +3,7 @@ package main;
 public class User {
 
 	private int id;
-	private String userName;
+	pubic String userName;
 	private String passWord;
 
 	public User(int id, String userName, String passWord) {
@@ -41,8 +41,6 @@ public class User {
 		return passWord;
 	}
 
-	public void setPassWord(String passWord) {
-		this.passWord = passWord;
-	}
+	
 
 }
